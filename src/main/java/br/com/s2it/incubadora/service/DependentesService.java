@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.s2it.incubadora.model.Contribuinte;
 import br.com.s2it.incubadora.model.Dependentes;
 import br.com.s2it.incubadora.repository.DependentesRepository;
 
@@ -26,12 +25,12 @@ public class DependentesService {
 
 	}
 
-	public void update(Contribuinte contribuinte) {
-		repository.update(contribuinte);
+	public void update(Dependentes dependentes) {
+		repository.update(dependentes);
 	}
 
-	public void delete(Contribuinte contribuinte) {
-		repository.delete(contribuinte);
+	public void delete(Dependentes dependentes) {
+		repository.delete(dependentes);
 	}
 
 	// public boolean canToRemove(int cod){
