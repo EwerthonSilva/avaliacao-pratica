@@ -5,6 +5,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,37 +16,36 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "contribuinte")
-public class Contribuinte implements Serializable{
+public class Contribuinte implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
-	public Contribuinte(){
-		
+	public Contribuinte() {
+
 	}
-	
-	public Contribuinte(int cod){
+
+	public Contribuinte(int cod) {
 		this.cod = cod;
 	}
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int cod;
 
-	@Column(name="nome")
+	@Column(name = "nome")
 	private String nome;
-	@Column(name="cpf")	
+	@Column(name = "cpf")
 	private String cpf;
-	@Column(name="rg")
+	@Column(name = "rg")
 	private String rg;
-	@Column(name="rendaAnual")
+	@Column(name = "rendaAnual")
 	private BigDecimal rendaAnual;
-	@Column(name="dataNasc")
+	@Column(name = "dataNasc")
 	private Date dataNasc;
-	
-	private Set<Dependentes> dependentes;
-	
 
-	@OneToMany(cascade = ALL, mappedBy = "contribuinte")
+	private Set<Dependentes> dependentes;
+
+	@OneToMany(cascade = CascadeType.ALL, mappedBy = "contribuinte")
 	public Set<Dependentes> getDependentes() {
 		return dependentes;
 	}
