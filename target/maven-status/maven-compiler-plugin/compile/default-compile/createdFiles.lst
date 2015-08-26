@@ -1,0 +1,11 @@
+br/com/s2it/incubadora/model/Contribuinte.class
+br/com/s2it/incubadora/controller/DependentesController.class
+br/com/s2it/incubadora/service/DependentesService.class
+br/com/s2it/incubadora/controller/ContribuinteController.class
+br/com/s2it/incubadora/repository/DependentesRepository.class
+br/com/s2it/incubadora/repository/AbstractRepository.class
+br/com/s2it/incubadora/model/Dependentes.class
+br/com/s2it/incubadora/endPoints/ContribuinteEndpoint.class
+br/com/s2it/incubadora/repository/ContribuinteRepository.class
+br/com/s2it/incubadora/service/ContribuinteService.class
+br/com/s2it/incubadora/config/AppConfig.class

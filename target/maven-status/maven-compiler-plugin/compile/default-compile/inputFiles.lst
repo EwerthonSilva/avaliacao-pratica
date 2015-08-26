@@ -1,0 +1,11 @@
+/home/wpsilva/workspace/RelacaoContribuinteDependente/src/main/java/br/com/s2it/incubadora/endPoints/ContribuinteEndpoint.java
+/home/wpsilva/workspace/RelacaoContribuinteDependente/src/main/java/br/com/s2it/incubadora/service/ContribuinteService.java
+/home/wpsilva/workspace/RelacaoContribuinteDependente/src/main/java/br/com/s2it/incubadora/controller/DependentesController.java
+/home/wpsilva/workspace/RelacaoContribuinteDependente/src/main/java/br/com/s2it/incubadora/model/Dependentes.java
+/home/wpsilva/workspace/RelacaoContribuinteDependente/src/main/java/br/com/s2it/incubadora/model/Contribuinte.java
+/home/wpsilva/workspace/RelacaoContribuinteDependente/src/main/java/br/com/s2it/incubadora/repository/AbstractRepository.java
+/home/wpsilva/workspace/RelacaoContribuinteDependente/src/main/java/br/com/s2it/incubadora/config/AppConfig.java
+/home/wpsilva/workspace/RelacaoContribuinteDependente/src/main/java/br/com/s2it/incubadora/service/DependentesService.java
+/home/wpsilva/workspace/RelacaoContribuinteDependente/src/main/java/br/com/s2it/incubadora/repository/ContribuinteRepository.java
+/home/wpsilva/workspace/RelacaoContribuinteDependente/src/main/java/br/com/s2it/incubadora/repository/DependentesRepository.java
+/home/wpsilva/workspace/RelacaoContribuinteDependente/src/main/java/br/com/s2it/incubadora/controller/ContribuinteController.java

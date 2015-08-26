@@ -13,7 +13,7 @@ import br.com.s2it.incubadora.service.ContribuinteService;
 @RequestMapping("/contribuinte") 
 public class ContribuinteController {
 
-	public static final String VIEW = "cadContribuinte";
+	public static final String VIEW = "index";
 
 	@Autowired
 	private ContribuinteService service;
