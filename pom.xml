@@ -3,7 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.s2it.incubadora</groupId>
 	<artifactId>RelacaoContribuinteDependente</artifactId>
+	
 	<packaging>jar</packaging>
+	
 	<version>0.0.1-SNAPSHOT</version>
 	<name>RelacaoContribuinteDependente Maven Webapp</name>
 	<url>http://maven.apache.org</url>
