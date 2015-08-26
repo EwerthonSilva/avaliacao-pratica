@@ -10,7 +10,7 @@ import br.com.s2it.incubadora.model.Contribuinte;
 import br.com.s2it.incubadora.service.ContribuinteService;
 
 @Controller
-@RequestMapping("/contribuinte")
+@RequestMapping("/contribuinte") 
 public class ContribuinteController {
 
 	public static final String VIEW = "cadContribuinte";
